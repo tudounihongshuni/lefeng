@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>乐蜂网</title>
+
+  <link rel="stylesheet" href="css/lefeng.css">
+  <script src="js/lefeng.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+  <!--header-->
+    <!--头部-->
+    <div class="header">
+      <span class="left_header">
+        送货到&nbsp;
+        <a href="#">上海</a>
+        <b class="up"></b>
+        <!--省份信息-->
+        <ul class="area_sell">
+          <li><a href="#">湖南</a></li>
+          <li><a href="#">湖北</a></li>
+          <li><a href="#">河南</a></li>
+          <li><a href="#">江西</a></li>
+          <li><a href="#">四川</a></li>
+          <li><a href="#">贵州</a></li>
+          <li><a href="#">云南</a></li>
+          <li><a href="#">重庆</a></li>
+          <li><a href="#">西藏</a></li>
+          <li><a href="#">广东</a></li>
+          <li><a href="#">广西</a></li>
+          <li><a href="#">海南</a></li>
+          <li><a href="#">北京</a></li>
+          <li><a href="#">河北</a></li>
+          <li><a href="#">内蒙古</a></li>
+          <li><a href="#">山西</a></li>
+          <li><a href="#">天津</a></li>
+          <li><a href="#">江苏</a></li>
+          <li><a href="#">山东</a></li>
+          <li><a href="#">上海</a></li>
+          <li><a href="#">福建</a></li>
+          <li><a href="#">浙江</a></li>
+          <li><a href="#">安徽</a></li>
+          <li><a href="#">辽宁</a></li>
+          <li><a href="#">黑龙江</a></li>
+          <li><a href="#">吉林</a></li>
+          <li><a href="#">陕西</a></li>
+          <li><a href="#">新疆</a></li>
+          <li><a href="#">甘肃</a></li>
+          <li><a href="#">宁夏</a></li>
+          <li><a href="#">青海</a></li>
+        </ul>
+      </span>
+      <!--右边信息-->
+      <div class="right">
+        <p>欢迎来到乐蜂，请 <a href="#">登录&nbsp;|&nbsp;免费注册</a></p>
+        <ul class="right_header">
+          <li class="myOrder">
+            <a href="#">我的订单</a>
+            <b class="up"></b>
+            <ul class="orderList">
+              <li><a href="#">我的钱包</a></li>
+              <li><a href="#">我的礼券</a></li>
+            </ul>
+          </li>
+          <li class="nav_fast">
+            <a href="#">快速导航</a>
+            <b class="up"></b>
+            <ul id="nav_list">
+              <li><a href="#">帮助中心</a></li>
+              <li><a href="#">联系客服</a></li>
+              <li><a href="#">商务合作</a></li>
+              <li><img src="img/ma1.jpg" class="nav_bg"></li>
+              <li><a href="#" style="width:137px;text-align:center;color:#F52648;">惊喜码上来</a></li>
+            </ul>
+          </li>
+          <li id="thrid"><a href="#">收藏乐蜂</a></li>
+          <li class="phone">
+            <a href="#">手机乐蜂</a>
+            <b class="phone_icon"></b>
+            <ul id="phone_le">
+              <li class="l1"><img src="img/ma2.jpg" class="nav_bg" alt=""></li>
+              <li class="l2"><span><b class="i1"></b><b class="i2"></b>客户端</span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--导航-->
+    <div class="navbar">
+    <!--logo-->
+     <div class="navbar-logo">
+      <a href="#"></a>
+    </div>
+    <!--main-->
+    <div class="navbar-search">
+      <div class="search-input">
+        <strong id="search-submit">搜索</strong>
+        <input type="text" placeholder="搜商品">
+      </div>
+      <p class="hotp">热门：</p>
+    </div>
+    <!--购物车-->
+    <div class="navbar-shopping">
+      <div class="shopping">
+        <!--<strong>0</strong>-->
+      </div>
+      <div class="shoppong-tips"></div>
+    </div>
+  </div>
+
+    <!--nav-->
+    <div class="nav">
+      <div class="cnav-main">
+        <!--商品分类-->
+        <div class="cnav-main-btn active">
+          <a href="#">商品分类</a>
+          <i></i>
+        </div>
+        <!--商品分类列表-->
+        <div class="cnav-list">
+          <dl class="listf1">
+            <dt>
+              <strong class="class-1">
+                <img src="img/listf1.png" alt="">
+                护肤用品
+              </strong>
+              <p>
+                <a href="#">面膜</a>
+                <a href="#">防晒隔离</a>
+                <a href="#">护肤套装</a>
+                <a href="#">洁面</a>
+                <a href="#">面部护肤</a>
+                <a href="#">眼部护理</a>
+              </p>
+            </dt>
+            <dd>
+              <!--列表展开项-->
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">面膜 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面膜贴</a>
+                    <a href="#">免洗面膜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">泥膜</a>
+                    <a href="#">泡泡面膜</a>
+                    <a href="#">鼻膜鼻贴</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">护肤套装 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">护肤套装</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">面部护肤 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面霜</a>
+                    <a href="#">乳液</a>
+                    <a href="#">爽肤水</a>
+                    <a href="#">精华</a>
+                    <a href="#">喷露</a>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">防晒隔离 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">防晒乳</a>
+                    <a href="#">防晒喷雾</a>
+                    <a href="#">隔离乳</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">洁面 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">洁面乳</a>
+                    <a href="#">洁面膏</a>
+                    <a href="#">洁面皂</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">眼部护理 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">眼霜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">眼部精华</a>
+                    <a href="#">眼部护理套装</a>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="listf2">
+            <dt>
+              <strong class="class-2">
+                <img src="img/listf2.png" alt="">
+                彩妆用品
+              </strong>
+               <p>
+              <a href="#">底妆</a>
+              <a href="#">眼妆</a>
+              <a href="#">唇妆</a>
+              <a href="#">卸妆</a>
+              <a href="#">美甲</a>
+              <a href="#">彩妆套装</a>
+            </p>
+            </dt>
+            <dd>
+              <!--列表展开项-->
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">面膜 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面膜贴</a>
+                    <a href="#">免洗面膜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">泥膜</a>
+                    <a href="#">泡泡面膜</a>
+                    <a href="#">鼻膜鼻贴</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">护肤套装 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">护肤套装</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">面部护肤 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面霜</a>
+                    <a href="#">乳液</a>
+                    <a href="#">爽肤水</a>
+                    <a href="#">精华</a>
+                    <a href="#">喷露</a>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">防晒隔离 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">防晒乳</a>
+                    <a href="#">防晒喷雾</a>
+                    <a href="#">隔离乳</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">洁面 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">洁面乳</a>
+                    <a href="#">洁面膏</a>
+                    <a href="#">洁面皂</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">眼部护理 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">眼霜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">眼部精华</a>
+                    <a href="#">眼部护理套装</a>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="listf3">
+            <dt>
+              <strong class="class-3">
+                <img src="img/listf3.png" alt="">
+                美容工具
+              </strong>
+            <p>
+              <a href="#">美容工具</a>
+              <a href="#">美妆工具</a>
+              <a href="#">美发工具</a>
+              <a href="#">美甲工具</a>
+              <a href="#">洁面工具</a>
+              <a href="#">化妆工具</a>
+            </p>
+            </dt>
+            <dd>
+              <!--列表展开项-->
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">面膜 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面膜贴</a>
+                    <a href="#">免洗面膜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">泥膜</a>
+                    <a href="#">泡泡面膜</a>
+                    <a href="#">鼻膜鼻贴</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">护肤套装 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">护肤套装</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">面部护肤 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">面霜</a>
+                    <a href="#">乳液</a>
+                    <a href="#">爽肤水</a>
+                    <a href="#">精华</a>
+                    <a href="#">喷露</a>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <strong>
+                    <a href="#">防晒隔离 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">防晒乳</a>
+                    <a href="#">防晒喷雾</a>
+                    <a href="#">隔离乳</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">洁面 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">洁面乳</a>
+                    <a href="#">洁面膏</a>
+                    <a href="#">洁面皂</a>
+                  </div>
+                </li>
+                <li>
+                  <strong>
+                    <a href="#">眼部护理 &gt;</a>
+                  </strong>
+                  <div class="float-list-cont">
+                    <a href="#">眼霜</a>
+                    <a href="#">眼膜</a>
+                    <a href="#">眼部精华</a>
+                    <a href="#">眼部护理套装</a>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+        <!--首页/蜂购全球-->
+        <div class="cnav-one">
+          <a href="#">首页</a>
+          <a href="#">蜂购全球</a>
+        </div>
+        <!--三个小图标-->
+        <div class="cnav-right">
+          <a class="cnav-right-1" href="#"></a>
+          <a class="cnav-right-2" href="#"></a>
+          <a class="cnav-right-3" href="#"></a>
+        </div>
+      </div>
+    </div>
+  <!--banner-->
+    <div class="banner">
+      <div class="slider">
+        <ul class="imgs">
+          <li value="0"><a href="#"><img src="img/banner01.png" alt=""></a></li>
+          <li value="1"><a href="#"><img src="img/banner02.png" alt=""></a></li>
+          <li value="2"><a href="#"><img src="img/banner03.png" alt=""></a></li>
+          <li value="3"><a href="#"><img src="img/banner04.png" alt=""></a></li>
+          <li value="4"><a href="#"><img src="img/banner05.png" alt=""></a></li>
+        </ul>
+        <div class="index">
+          <span class="hover"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  <!--section-->
+    <section>
+    <!--1f每日精选-->
+    <h3 class="tit tit-1">
+      <i></i>
+      <span>
+        每日只选<b>5件</b>
+      </span>
+    </h3>
+    <div class="content content-1">
+      <div class="floor1">
+        <div class="floor1-main1">
+          <ul>
+            <li>
+              <i class="f1-list1"></i>
+            </li>
+            <li class="text">
+              <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+            </li>
+            <li>￥69.0 <s>￥146.0</s> </li>
+          </ul>
+          <a class="dayly01" href="#"></a>
+          <div class="mask mask1"></div>
+        </div>
+        <div class="floor1-main1">
+          <ul>
+            <li>
+              <i class="f1-list2"></i>
+            </li>
+            <li class="text">
+              <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+            </li>
+            <li>￥69.0 <s>￥146.0</s> </li>
+          </ul>
+          <a class="dayly02" href="#"></a>
+          <div class="mask mask2"></div>
+        </div>
+      </div>
+      <div class="floor1-2">
+        <ul class="m3">
+          <li>
+            <a class="dayly03" href="#"></a>
+            <div class="mask mask3"></div>
+          </li>
+          <li class="text">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul id="m4">
+          <li>
+            <a class="dayly04" href="#"></a>
+            <div class="mask mask4"></div>
+          </li>
+          <li class="text">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul id="m5">
+          <li>
+            <a class="dayly05" href="#"></a>
+            <div class="mask mask5"></div>
+          </li>
+          <li class="text">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <i class="f1-list3"></i>
+        <i class="f1-list4"></i>
+        <i class="f1-list5"></i>
+      </div>
+    </div>
+    <!--2f品牌热卖-->
+    <h3 class="tit tit-2">
+      <i></i>
+      <span>
+        每天<b>10点</b>上新
+      </span>
+      <a href="#">更多品牌></a>
+    </h3>
+    <div class="content content-2">
+      <a href="#"><img src="img/hot01.png" alt=""></a>
+      <a href="#"><img src="img/hot02.png" alt=""></a>
+      <a href="#"><img src="img/hot03.png" alt=""></a>
+      <a href="#"><img src="img/hot04.png" alt=""></a>
+      <a href="#"><img src="img/hot05.png" alt=""></a>
+      <a href="#"><img src="img/hot06.png" alt=""></a>
+      <a href="#"><img src="img/hot07.png" alt=""></a>
+      <a href="#"><img src="img/hot08.png" alt=""></a>
+      <a href="#"><img src="img/hot09.png" alt=""></a>
+      <a href="#"><img src="img/hot10.png" alt=""></a>
+    </div>
+    <!--3f彩妆香水-->
+    <h3 class="tit tit-3">
+      <i></i>
+    </h3>
+    <div class="content content-3">
+      <div class="floor3">
+        <a href="#"></a>
+        <ul class="m6">
+          <li>
+            <a class="facial03" href="#"></a>
+            <div class="mask mask6"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+           ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m7">
+          <li>
+            <a class="facial04" href="#"></a>
+            <div class="mask mask7"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m8">
+          <li>
+            <a class="facial05" href="#"></a>
+            <div class="mask mask8"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+      </div>
+      <div class="floor3">
+        <a class="facial02" href="#"></a>
+        <ul class="m9">
+          <li>
+            <a class="facial06" href="#"></a>
+            <div class="mask mask9"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m10">
+          <li>
+            <a class="facial07" href="#"></a>
+            <div class="mask mask10"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m11">
+          <li>
+            <a class="facial08" href="#"></a>
+            <div class="mask mask11"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--4f身体洗护-->
+    <h3 class="tit tit-4">
+      <i></i>
+    </h3>
+    <div class="content content-3">
+      <div class="floor3">
+        <a class="body01" href="#"></a>
+        <ul class="m6">
+          <li>
+            <a class="body03" href="#"></a>
+            <div class="mask mask6"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m7">
+          <li>
+            <a class="body04" href="#"></a>
+            <div class="mask mask7"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m8">
+          <li>
+            <a class="body05" href="#"></a>
+            <div class="mask mask8"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+      </div>
+      <div class="floor3">
+        <a class="body02" href="#"></a>
+        <ul class="m9">
+          <li>
+            <a class="body06" href="#"></a>
+            <div class="mask mask9"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m10">
+          <li>
+            <a class="body07" href="#"></a>
+            <div class="mask mask10"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+        <ul class="m11">
+          <li>
+            <a class="body08" href="#"></a>
+            <div class="mask mask11"></div>
+          </li>
+          <li class="text1">
+            <span><b>4.7折/</b>菲诗小铺济州岛火山灰泥毛孔净护慕斯面膜 100ml</span>
+          </li>
+          <li>
+            ￥69.0 <s>￥146.0</s>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer>
+    <div class="footer1">
+      <div class="img1"></div>
+      <div class="img2"></div>
+      <div class="img3"></div>
+    </div>
+    <div class="footer2">
+        <ul id="first">
+          <li><a class="footer2-img1" href="#"></a></li>
+          <li>客服 9:00-24:00</li>
+        </ul>
+        <ul>
+          <li class="footer2-text1">新手指南</li>
+          <li>购物流程</li>
+          <li>优惠券规则</li>
+          <li>联系客服</li>
+          <li>常见问题</li>
+        </ul>
+      <ul>
+        <li class="footer2-text1">付款方式</li>
+        <li>在线支付</li>
+        <li>货到付款</li>
+        <li>钱包支付</li>
+      </ul>
+      <ul>
+        <li class="footer2-text1">配送服务</li>
+        <li>配送时效及运费</li>
+        <li>验货与签收</li>
+      </ul>
+      <ul>
+        <li class="footer2-text1">售后服务</li>
+        <li>退货政策</li>
+        <li>退货流程</li>
+        <li>退货方式及时效</li>
+      </ul>
+      <ul>
+        <li class="footer2-text1">乐蜂网微信</li>
+        <li><img src="" class="footer2-img2"></li>
+      </ul>
+    </div>
+    <div class="footer3">
+      <a class="end-text1" href="#">关于乐蜂</a>
+      <a href="#">免责声明</a>
+      <a href="#">隐私声明</a>
+      <a href="#">版权声明</a>
+      <a href="#">招聘信息</a>
+      <a href="#">联系我们</a>
+      <a href="#">帮助中心</a>
+      <a href="#">友情链接</a>
+      <div>
+        <p>Copyright 2008-2016 Lefeng.com All Right Reserved.天津品简电子商务有限公司 津ICP备15005555号-1   京公网安备11010502014183 营业执照</p>
+        <p>公司全称：天津品简电子商务有限公司 公司固话：400 000 1818 公司地址：天津市武清区京津电子商务产业园宏瑞道18号</p>
+        <div>
+          <a class="end-1" href="#"></a>
+          <a class="end-2" href="#"></a>
+          <a class="end-3" href="#"></a>
+          <a class="end-4" href="#"></a>
+          <a class="end-5" href="#"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <br>
+  <script>
+     $(function() {
+       $('.left_header').bind('mouseover mouseout', function () {
+         //console.log("mouseover触发");
+         var span = $(this);
+         var list = $(".area_sell");
+         if (span.is(".toggle")) {
+           span.removeClass("toggle");
+           list.hide();
+         } else {
+           span.addClass('toggle');
+           list.show();
+         }
+       })
+       $(".myOrder").bind("mouseover mouseout", function () {
+         var myOrder = $(this);
+         var list = $(".myOrder :last-child");
+         if (myOrder.is(".toggle")) {
+           myOrder.removeClass("toggle");
+           list.hide();
+         } else {
+           myOrder.addClass("toggle");
+           list.show();
+         }
+       })
+       $(".nav_fast").bind("mouseover mouseout", function () {
+         var nav = $(this);
+         var list = $("#nav_list");
+         if (nav.is(".toggle")) {
+           nav.removeClass("toggle");
+           list.hide();
+         } else {
+           nav.addClass("toggle");
+           list.show();
+         }
+       })
+       $(".phone").bind("mouseover mouseout", function () {
+         var phone = $(this);
+         var list = $("#phone_le");
+         if (phone.is(".toggle")) {
+           phone.removeClass("toggle");
+           list.hide();
+         } else {
+           phone.addClass("toggle");
+           list.show();
+         }
+       })
+       $(".listf1").bind("mouseover mouseout",function(){
+         var listf1=$(this);
+         var dd=$(".listf1 dd");
+         if(listf1.is(".hover")){
+           listf1.removeClass("hover");
+           dd.hide();
+         }else{
+           listf1.addClass("hover");
+           dd.show();
+         }
+       })
+       $(".listf2").bind("mouseover mouseout",function(){
+         var listf2=$(this);
+         var dd=$(".listf2 dd");
+         if(listf2.is(".hover")){
+           listf2.removeClass("hover");
+           dd.hide();
+         }else{
+           listf2.addClass("hover");
+           dd.show();
+         }
+       })
+       $(".listf3").bind("mouseover mouseout",function(){
+         var listf3=$(this);
+         var dd=$(".listf3 dd");
+         if(listf3.is(".hover")){
+           listf3.removeClass("hover");
+           dd.hide();
+         }else{
+           listf3.addClass("hover");
+           dd.show();
+         }
+       })
+        //遮罩层
+       $(".floor1-main1:first").hover(
+         function(){
+           $(".mask1").show();
+         },function(){
+           $(".mask1").hide();
+         })
+       $(".floor1-main1:last").hover(
+         function(){
+           $(".mask2").show();
+         },function(){
+           $(".mask2").hide();
+         })
+         $(".m3").hover(
+           function(){
+             $(".mask3").stop().show();
+           },function(){
+             $(".mask3").stop().hide();
+           })
+        $("#m4").hover(
+         function(){
+           $(".mask4").show();
+         },function(){
+           $(".mask4").hide();
+         })
+       $("#m5").hover(
+         function(){
+           $(".mask5").show();
+         },function(){
+           $(".mask5").hide();
+         })
+       $(".m6").hover(
+         function(){
+           $(".mask6").show();
+         },function(){
+           $(".mask6").hide();
+         })
+       $(".m7").hover(
+         function(){
+           $(".mask7").show();
+         },function(){
+           $(".mask7").hide();
+         })
+       $(".m8").hover(
+         function(){
+           $(".mask8").show();
+         },function(){
+           $(".mask8").hide();
+         })
+       $(".m9").hover(
+         function(){
+           $(".mask9").show();
+         },function(){
+           $(".mask9").hide();
+         })
+       $(".m10").hover(
+         function(){
+           $(".mask10").show();
+         },function(){
+           $(".mask10").hide();
+         })
+       $(".m11").hover(
+         function(){
+           $(".mask11").show();
+         },function(){
+           $(".mask11").hide();
+         })
+       //广告轮播功能
+       /*var slider=$(".slider"),
+       ul=slider.find("ul"),
+       showNumber=slider.find(".index span"),//获取图片上可点击的小方块
+       oneWidth=slider.find("ul li").eq(0).width();//获取图片的宽度
+       var timer=null;
+       var iNov=0;
+
+       showNumber.on("mouseover",function(){
+         $(this).addClass("hover").siblings().removeClass("hover");//为点击的span增加样式，把其余的span上的样式清除掉
+         var index=$(this).index();//返回当前span的索引值
+         iNov=index;
+         ul.animate({
+           left: -oneWidth * iNov
+         })
+         });
+
+        function autoPlay(){
+          timer=setInterval(function(){//设置定时器
+          iNov++;
+          if(iNov>showNumber.length-1){//当到达最后一张涂的时候，让iNov赋值为第一张图的索引值
+              iNov=0;
+          }
+          showNumber.eq(iNov).trigger("mouseover");//模拟触发数字按钮的click
+          },3000)
+        }
+       autoPlay();
+
+//       鼠标悬停事件的触发
+       slider.hover(
+         function(){
+         clearInterval(timer);
+       },function(){
+         autoPlay();
+       }
+       );*/
+       $(".index span").mouseover(function(){
+         $(".imgs li").eq(0).show();
+         $(this).addClass("hover").siblings().removeClass("hover");
+         var index=$(this).index();
+         i=index;
+         $(".imgs li").eq(index).fadeIn(400).siblings().fadeOut(400);
+       });
+       //自动轮播
+       var i=0;
+       var timer=setInterval(play,4000);
+       var play=function(){
+         i++;
+         i=i>4?0:i;
+         $(".index span").eq(i).addClass("hover").siblings().removeClass("hover");
+         $(".imgs li").eq(i).fadeIn(400).siblings().fadeOut(400);
+       }
+       $(".slider").hover(function(){
+         clearInterval(timer);
+       },function(){
+         timer=setInterval(play,4000);
+       })
+     })
+ </script>
+</body>
+</html>

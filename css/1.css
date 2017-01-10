@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.slider {
+  width: 1366px;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.slider > .index {
+  position: absolute;
+  right: 110px;
+  bottom: 5px;
+  width: 200px;
+  height: 14px;
+  z-index: 200;
+}
+.slider > .index > span {
+  float: left;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: #333333;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.slider > .index span.hover {
+  background-color: #FF0000;
+}
+.slider > .imgs {
+  width: 6830px;
+  position: relative;
+  height: 360px;
+}
+.slider > .imgs > li {
+  float: left;
+}
